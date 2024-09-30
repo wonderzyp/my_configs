@@ -9,7 +9,6 @@ CTRL + Mouse WheelUp/Down:	change font size
 CTRL + Mouse RightButton: 	copy from clipboard
 
 Some Other Setting:
-- copy on select
 - not check update
 - window_background_opacity = 0.8
 ]]--
@@ -58,7 +57,6 @@ table.insert(my_mouse_bindings, {
 
 
 local config = {
-	copy_on_select = true,
 	animation_fps = 1,
 	cursor_blink_ease_in = 'Constant',
 	cursor_blink_ease_out = 'Constant',
