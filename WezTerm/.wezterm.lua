@@ -1,3 +1,19 @@
+--[[
+README:
+
+CTRL + n:			new tab
+CTRL + RightArrow		split horizontal
+CTRL + DownArrow		split vertical
+
+CTRL + Mouse WheelUp/Down:	change font size
+CTRL + Mouse RightButton: 	copy from clipboard
+
+Some Other Setting:
+- copy on select
+- not check update
+- window_background_opacity = 0.8
+]]--
+
 local wezterm = require 'wezterm'
 
 local my_shortcuts = {}
